@@ -6,10 +6,20 @@ body {
     padding: 20px;
 }
 
+.wrapper {
+    width: 960px; /* Set the wrapper width */
+    margin: 0 auto; /* Center the wrapper */
+    background-color: white; /* Optional: Adds a background color */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
 header {
     background-color: #003057;
     color: white;
     padding: 20px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -24,13 +34,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-ul {
-    list-style-type: none; /* Removes bullets */
-    padding: 0; /* Removes left indentation */
-}
-
-ul li {
-    margin-bottom: 10px; /* Adds spacing between list items */
 }
