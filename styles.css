@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B3A369; /* Georgia Tech Gold */
+    color: #003057; /* Georgia Tech Navy */
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #003057;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #003057;
+    display: inline-block;
+}
+
+a {
+    color: #003057;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
